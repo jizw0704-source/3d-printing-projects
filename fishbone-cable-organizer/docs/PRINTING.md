@@ -4,7 +4,9 @@
 
 2026-09-22，用户确认完整鱼骨 V06 已打印完成，并提供绕线实拍。反馈：比想象中大一些，但挺方便。用户明确保留当前尺寸，不做紧凑版。First print complete with user photo and positive initial usability feedback; keep V06 dimensions.
 
-![首件绕线实拍](../assets/first-print-v06.jpg)
+![V06 设计渲染，非实拍](../assets/design-v06.png)
+
+上图为设计展示图，实际打印使用黑色 PLA。 / CAD render, not a photograph.
 
 照片和初步反馈不代表卡口保持力、满容量或长期强度已通过测试。
 
@@ -38,4 +40,4 @@ Import STEP/STL and slice for the target printer. This repository does not inclu
 | 线缆类型、长度、外径 | 待记录 |
 | 双端固定和取放 | 待试用 |
 | 现有挂钩适配与稳定性 | 待试用 |
-| 实拍 | 已提供，见上图 |
+| 实拍 | 用户已提供用于反馈；按用户偏好不作为仓库展示图 |

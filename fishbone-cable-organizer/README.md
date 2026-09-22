@@ -11,12 +11,6 @@ A minimal, one-piece 3D-printable cable organizer with sparse curved ribs, two c
 
 *依据 V06 模型生成的设计渲染。展示色为灰绿色，本次实际打印材料为黑色 PLA。 / CAD render; the first print uses black PLA.*
 
-## 首件实拍 / First printed sample
-
-![黑色 PLA 鱼骨 V06，绕线实拍](assets/first-print-v06.jpg)
-
-用户提供的真实照片：线缆已绕在骨节之间，两个插头留在尾部。线长、线径、卡口保持力及挂钩悬挂稳定性尚未测量。 / User-supplied photo; cable length, diameter, retention and hanging stability are not yet measured.
-
 ## 设计要点 / Design
 
 - **两对浅弧骨节**：稀疏布局，圆润截面，保持简约外形。

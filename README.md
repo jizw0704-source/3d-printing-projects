@@ -9,7 +9,7 @@ A growing collection of our 3D printing projects: CAD models, design illustratio
 | 项目 / Project | 当前版本 | 实物进展 |
 | --- | --- | --- |
 | [hello · MacBook 竖放支架](macbook-vertical-stand/) | Design 1.0 / V14 | 打印完成，用户初步使用反馈良好 |
-| [Fishbone · 鱼骨收线器](fishbone-cable-organizer/) | V06 | 打印完成，已补实拍；使用方便，保留现有尺寸 |
+| [Fishbone · 鱼骨收线器](fishbone-cable-organizer/) | V06 | 打印完成；使用方便，保留现有尺寸 |
 
 ### hello · 竖放支架
 
@@ -21,9 +21,9 @@ A growing collection of our 3D printing projects: CAD models, design illustratio
 
 ### Fishbone · 鱼骨收线器
 
-![鱼骨 V06 黑色 PLA 首件实拍](fishbone-cable-organizer/assets/first-print-v06.jpg)
+![鱼骨 V06 设计渲染](fishbone-cable-organizer/assets/design-v06.png)
 
-两对浅弧骨节、双端卡槽和现有挂钩适用的悬挂孔。用户反馈“比想象中大一些，挺方便的”，明确保留 V06 尺寸，不做紧凑版。上图为用户提供的实拍；挂钩适配和不同线缆容量仍待验证。
+两对浅弧骨节、双端卡槽和现有挂钩适用的悬挂孔。用户反馈“比想象中大一些，挺方便的”，明确保留 V06 尺寸，不做紧凑版。上图为 CAD 设计渲染，非实拍，实际打印使用黑色 PLA；挂钩适配和不同线缆容量仍待验证。
 
 [项目介绍与设计图](fishbone-cable-organizer/) · [STEP](fishbone-cable-organizer/models/v06/fishbone-v06.step) · [STL](fishbone-cable-organizer/models/v06/fishbone-v06.stl) · [打印记录](fishbone-cable-organizer/docs/PRINTING.md)
 
