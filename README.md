@@ -35,9 +35,9 @@ Each project keeps its own documentation and build instructions. Renders, AI ill
 
 ## 迁移说明 / Migration
 
-两项旧独立仓库已迁入此处；此仓库是后续更新入口。旧仓库保留历史提交和原链接，归档后只读。此次复制各仓库 main 的已跟踪文件，没有将原来的提交历史合并进本仓库。来源提交与文件完整性核对见 [迁移记录](MIGRATION.md)。本机 3MF、G-code、设备凭据不纳入迁移。
+两项旧独立仓库已迁入此处；此仓库是后续更新入口。两个旧独立仓库已按用户确认删除，原仓库链接不再使用。此次复制各仓库 main 的已跟踪文件，没有将原来的提交历史合并进本仓库。来源提交与文件完整性核对见 [迁移记录](MIGRATION.md)。本机 3MF、G-code、设备凭据不纳入迁移。
 
-This repository is the ongoing home for future projects. Original private repositories retain their historical records.
+This repository is the ongoing home for future projects. The two original repositories have been deleted after migration; this collection is the single ongoing repository.
 
 ## 开源许可 / License
 
