@@ -89,9 +89,9 @@ uv run --with trimesh python -m http.server 8776 --bind 127.0.0.1
 
 预览地址：http://127.0.0.1:8776/viewer.html。建模脚本会重新生成当前目录交付物，并执行有效单实体、STEP 回读体积一致性、STL 闭合正体积和重载检查。未配置独立静态类型检查器。Design 1.0 生成只依赖本目录源码和独立预览模板，不需要旧版文件。
 
-仓库未添加开源许可证。
+本项目采用总仓库的 [MIT 许可证](../LICENSE)。
 
-Open the preview at [localhost:8776](http://127.0.0.1:8776/viewer.html). No standalone type checker is configured. Only Design 1.0 is retained in the current tree; earlier designs remain recoverable through Git history. No open-source license has been added to this repository.
+Open the preview at [localhost:8776](http://127.0.0.1:8776/viewer.html). No standalone type checker is configured. Only Design 1.0 is retained in the current tree; earlier designs remain recoverable through Git history. See the root [MIT License](../LICENSE).
 
 ## 版本对应 / Version mapping
 

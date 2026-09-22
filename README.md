@@ -37,4 +37,10 @@ Each project keeps its own documentation and build instructions. Renders, AI ill
 
 两项旧独立仓库已迁入此处；此仓库是后续更新入口。旧仓库保留历史提交和原链接，归档后只读。此次复制各仓库 main 的已跟踪文件，没有将原来的提交历史合并进本仓库。来源提交与文件完整性核对见 [迁移记录](MIGRATION.md)。本机 3MF、G-code、设备凭据不纳入迁移。
 
-This private repository is the ongoing home for future projects. Original repositories retain their history and redirect readers here. No open-source license has been selected.
+This repository is the ongoing home for future projects. Original private repositories retain their historical records.
+
+## 开源许可 / License
+
+本仓库原创代码、CAD 模型和展示素材采用 [MIT License](LICENSE)，允许使用、修改和再分发（包括商业用途），请保留版权和许可声明。第三方软件、商标及其权利不包含在本授权中。
+
+Original code, CAD models and presentation assets are available under the MIT License. Third-party dependencies and trademarks retain their respective terms and rights. Designs are provided without warranty; verify fit and suitability before use.
