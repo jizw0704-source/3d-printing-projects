@@ -1,0 +1,46 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>hello · Design 1.0 · 3D 预览</title><style>
+:root{color-scheme:light dark;--foreground:#8e929b}body{margin:0;padding:22px;font:14px system-ui;background:light-dark(#f5f5f7,#191a1d);color:light-dark(#252629,#eeeeef)}h1{font-size:20px;margin:0 0 8px}p{opacity:.7;margin:0 0 20px}.viz-controls{display:flex;gap:18px;flex-wrap:wrap}.form-label{display:flex;flex:1;min-width:110px;flex-direction:column;gap:8px}input{width:100%;margin:0}canvas{cursor:grab}canvas:active{cursor:grabbing}
+</style></head><body><h1>hello · Design 1.0</h1><p>150 × 45 mm 底座 · 拖动旋转，滚轮缩放 · 实物验证待完成</p><div id="stand-six-view">
+<div class="viz-controls">
+<label class="form-label">水平旋转 <input class="form-range" id="stand-yaw" type="range" min="-180" max="180" value="-25"></label>
+<label class="form-label">俯仰 <input class="form-range" id="stand-pitch" type="range" min="-90" max="90" value="25"></label>
+<label class="form-label">缩放 <input class="form-range" id="stand-zoom" type="range" min="0.6" max="2.5" step="0.05" value="1"></label>
+</div>
+<canvas aria-label="Design 1.0 支架真实三维模型，可拖动旋转，也可使用上方滑块" style="width:100%;height:calc(100vh - 180px);min-height:280px;display:block;touch-action:none"></canvas>
+<div role="status" aria-live="polite"></div>
+<script type="application/json" id="stand-six-data">{"v":[],"f":[]}</script>
+</div>
+<script>
+(()=>{
+const root=document.getElementById('stand-six-view'),canvas=root.querySelector('canvas'),status=root.querySelector('[role=status]');
+const gl=canvas.getContext('webgl',{antialias:true,alpha:true});
+if(!gl){status.textContent='此预览需要 WebGL；可下载下方 STL 文件用三维软件打开。';return;}
+const data=JSON.parse(document.getElementById('stand-six-data').textContent),p=[],n=[];
+for(const f of data.f){const a=data.v[f[0]],b=data.v[f[1]],c=data.v[f[2]];
+let u=b.map((v,i)=>v-a[i]),v=c.map((v,i)=>v-a[i]);
+let norm=[u[1]*v[2]-u[2]*v[1],u[2]*v[0]-u[0]*v[2],u[0]*v[1]-u[1]*v[0]];
+let l=Math.hypot(...norm)||1;norm=norm.map(t=>t/l);
+for(const x of [a,b,c]){p.push(x[0],x[1],x[2]-20);n.push(...norm);}}
+function shader(type,src){const s=gl.createShader(type);gl.shaderSource(s,src);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw new Error(gl.getShaderInfoLog(s));return s;}
+try{
+const program=gl.createProgram();
+gl.attachShader(program,shader(gl.VERTEX_SHADER,`attribute vec3 p;attribute vec3 n;uniform float yaw;uniform float pitch;uniform float zoom;uniform float aspect;varying float light;
+vec3 turn(vec3 v){float x=cos(yaw)*v.x-sin(yaw)*v.y;float d=sin(yaw)*v.x+cos(yaw)*v.y;return vec3(x,cos(pitch)*v.z+sin(pitch)*d,cos(pitch)*d-sin(pitch)*v.z);}
+void main(){vec3 q=turn(p);vec3 nn=turn(n);light=.4+.6*max(dot(nn,normalize(vec3(-.4,.8,-.6))),0.);gl_Position=vec4(q.x*zoom/(90.*aspect),q.y*zoom/90.,q.z/400.,1.);}`));
+gl.attachShader(program,shader(gl.FRAGMENT_SHADER,`precision mediump float;varying float light;uniform vec3 color;void main(){gl_FragColor=vec4(color*light,1.);}`));
+gl.linkProgram(program);if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw new Error(gl.getProgramInfoLog(program));gl.useProgram(program);
+for(const [name,arr] of [['p',p],['n',n]]){const buf=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,buf);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(arr),gl.STATIC_DRAW);const loc=gl.getAttribLocation(program,name);gl.enableVertexAttribArray(loc);gl.vertexAttribPointer(loc,3,gl.FLOAT,false,0,0);}
+const yaw=root.querySelector('#stand-yaw'),pitch=root.querySelector('#stand-pitch'),zoom=root.querySelector('#stand-zoom');
+const loc={};for(const k of ['yaw','pitch','zoom','aspect','color'])loc[k]=gl.getUniformLocation(program,k);
+function draw(){const ratio=Math.min(devicePixelRatio||1,2);canvas.width=Math.round(canvas.clientWidth*ratio);canvas.height=Math.round(canvas.clientHeight*ratio);gl.viewport(0,0,canvas.width,canvas.height);gl.enable(gl.DEPTH_TEST);gl.clearColor(0,0,0,0);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.uniform1f(loc.yaw,+yaw.value*Math.PI/180);gl.uniform1f(loc.pitch,+pitch.value*Math.PI/180);gl.uniform1f(loc.zoom,+zoom.value);gl.uniform1f(loc.aspect,canvas.width/canvas.height);
+const swatch=document.createElement('span');swatch.style.color='var(--foreground)';root.appendChild(swatch);const rgb=getComputedStyle(swatch).color.match(/[\d.]+/g);swatch.remove();gl.uniform3f(loc.color,...(rgb&&rgb.length>=3?rgb.slice(0,3).map(x=>+x/255):[.5,.5,.5]));gl.drawArrays(gl.TRIANGLES,0,p.length/3);}
+for(const el of [yaw,pitch,zoom])el.addEventListener('input',draw);
+let drag=null;canvas.onpointerdown=e=>{drag=[e.clientX,e.clientY];canvas.setPointerCapture(e.pointerId);};
+canvas.onpointermove=e=>{if(!drag)return;yaw.value=((+yaw.value+(e.clientX-drag[0])*.6+540)%360)-180;pitch.value=Math.max(-90,Math.min(90,+pitch.value+(e.clientY-drag[1])*.5));drag=[e.clientX,e.clientY];draw();};
+canvas.onpointerup=canvas.onpointercancel=()=>drag=null;
+canvas.addEventListener('wheel',e=>{e.preventDefault();zoom.value=Math.max(.6,Math.min(2.5,+zoom.value-e.deltaY*.001));draw();},{passive:false});
+new ResizeObserver(draw).observe(canvas);draw();
+}catch(e){status.textContent='三维预览加载失败：'+e.message;}
+})();
+</script>
+</body></html>

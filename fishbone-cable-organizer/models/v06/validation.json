@@ -1,0 +1,12 @@
+{
+  "valid_single_solid": true,
+  "watertight": true,
+  "size_mm": [
+    65.99113464355469,
+    143.99271392822266,
+    10.000000000000004
+  ],
+  "volume_cm3": 33.31909277102107,
+  "step_roundtrip_relative_error": 9.688100310577083e-08,
+  "status": "concept; cable capacity, bending radius, hook fit, slicing and physical strength not validated"
+}

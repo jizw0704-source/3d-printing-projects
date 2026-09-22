@@ -1,0 +1,8 @@
+[project]
+name = "fishbone-cable-organizer"
+version = "0.6.0"
+requires-python = ">=3.12,<3.13"
+dependencies = ["cadquery==2.8.0", "trimesh>=4,<5"]
+
+[dependency-groups]
+dev = ["ruff>=0.12"]

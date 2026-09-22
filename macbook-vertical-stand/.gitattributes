@@ -1,0 +1,7 @@
+*.step binary
+*.stl binary
+*.png binary
+**/viewer.html linguist-generated=true
+*.step linguist-generated=true
+*.stl linguist-generated=true
+*.png linguist-generated=true
