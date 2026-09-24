@@ -1,0 +1,33 @@
+{
+  "printer": "Bambu Lab H2C",
+  "settings": {
+    "enable_support": "1",
+    "wall_loops": "3",
+    "support_type": "tree(auto)",
+    "support_on_build_plate_only": "1",
+    "layer_height": "0.16",
+    "bottom_shell_layers": "5"
+  },
+  "parts": [
+    {
+      "name": "white-PLA",
+      "extruder": "1"
+    },
+    {
+      "name": "black-PLA-z25-to30",
+      "extruder": "4"
+    }
+  ],
+  "gui_slice": {
+    "completed": true,
+    "white_g": 63.61,
+    "black_g": 5.43,
+    "total_g": 69.04,
+    "estimated_minutes": 240,
+    "filament_changes": 2
+  },
+  "job_submitted": true,
+  "physical_validation": false,
+  "job_state_at_observation": "Accepted; preparation, layer 0/562; lid-open notice",
+  "build_plate_at_resubmission": "Cool Plate SuperTack"
+}

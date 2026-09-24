@@ -1,0 +1,55 @@
+{
+  "feathers": {
+    "count": 16,
+    "neighbor_overlap_mm3": 8.841294720138253,
+    "nominal_max_width_mm": 16.8,
+    "raised_rib_width_mm": 0.96,
+    "feather_height_mm": 40
+  },
+  "shuttlecock-v08-single": {
+    "valid": true,
+    "solids": 1,
+    "watertight": true,
+    "size_mm": [
+      83.39517974853516,
+      83.39517974853516,
+      90.0
+    ],
+    "volume_cm3": 67.78219119202552,
+    "step_roundtrip_relative_error": 1.1726521434285232e-10
+  },
+  "shuttlecock-v08-black": {
+    "valid": true,
+    "solids": 1,
+    "watertight": true,
+    "size_mm": [
+      60.41161918640137,
+      60.394859313964844,
+      5.0
+    ],
+    "volume_cm3": 4.115818897024601,
+    "step_roundtrip_relative_error": 3.769675386240194e-10
+  },
+  "shuttlecock-v08-white": {
+    "valid": true,
+    "solids": 2,
+    "watertight": true,
+    "size_mm": [
+      83.39517974853516,
+      83.39517974853516,
+      90.0
+    ],
+    "volume_cm3": 63.66636436566694,
+    "step_roundtrip_relative_error": 3.8224224974631406e-11
+  },
+  "color_partition": {
+    "relative_volume_error": 7.708380462411307e-08,
+    "black_z_mm": [
+      25,
+      30
+    ],
+    "white_solids": 2,
+    "black_solids": 1,
+    "assembly_roundtrip_valid": true
+  }
+}

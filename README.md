@@ -10,6 +10,7 @@ A growing collection of our 3D printing projects: CAD models, design illustratio
 | --- | --- | --- |
 | [hello · MacBook 竖放支架](macbook-vertical-stand/) | Design 1.0 / V14 | 打印完成，用户初步使用反馈良好 |
 | [Fishbone · 鱼骨收线器](fishbone-cable-organizer/) | V06 | 打印完成；使用方便，保留现有尺寸 |
+| [羽毛球笔筒 / Shuttlecock pen holder](shuttlecock-pen-holder/) | V08 | 双色切片完成，已提交首件试打，待实物验收 |
 
 ### hello · 竖放支架
 
@@ -26,6 +27,16 @@ A growing collection of our 3D printing projects: CAD models, design illustratio
 两对浅弧骨节、双端卡槽和现有挂钩适用的悬挂孔。用户反馈“比想象中大一些，挺方便的”，明确保留 V06 尺寸，不做紧凑版。上图为 CAD 设计渲染，非实拍，实际打印使用黑色 PLA；挂钩适配和不同线缆容量仍待验证。
 
 [项目介绍与设计图](fishbone-cable-organizer/) · [STEP](fishbone-cable-organizer/models/v06/fishbone-v06.step) · [STL](fishbone-cable-organizer/models/v06/fishbone-v06.stl) · [打印记录](fishbone-cable-organizer/docs/PRINTING.md)
+
+### 羽毛球笔筒 / Shuttlecock pen holder
+
+![羽毛球笔筒 V08 CAD 渲染，非实拍](shuttlecock-pen-holder/assets/pen-v08.png)
+
+16 片宽圆羽毛、镂空连接环与圆润球托，白色主体配黑色环带。高 90 mm，最大外径约 83.4 mm。V08 加强羽梗和羽尖；H2C 双色切片预计约 4 小时、69 g。已提交试打，实物结果待验收。
+
+A 16-feather shuttlecock-inspired holder with a white body and black band. CAD and slicing checks are complete; the first physical trial is pending acceptance.
+
+[中英文介绍](shuttlecock-pen-holder/) · [双色 STEP](shuttlecock-pen-holder/v08/shuttlecock-v08-two-color.step) · [单色 STL](shuttlecock-pen-holder/v08/shuttlecock-v08-single.stl) · [打印参数与记录](shuttlecock-pen-holder/v08/PRINT-PREPARATION.md)
 
 ## 整理方式 / Organization
 
