@@ -20,6 +20,10 @@ A growing collection of our 3D printing projects: CAD models, design illustratio
 
 [项目介绍](macbook-vertical-stand/) · [STEP](macbook-vertical-stand/v14/stand-v14.step) · [STL](macbook-vertical-stand/v14/stand-v14.stl) · [打印记录](macbook-vertical-stand/docs/first-print-2026-09-16.md)
 
+![hello 支架 AI 模拟使用效果，非实拍](macbook-vertical-stand/assets/simulated-use-design-1.0.png)
+
+*AI 模拟使用效果，非打印实拍；具体几何与适配以 CAD 和实测为准。*
+
 ### Fishbone · 鱼骨收线器
 
 ![鱼骨 V06 设计渲染](fishbone-cable-organizer/assets/design-v06.png)

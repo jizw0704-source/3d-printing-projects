@@ -22,6 +22,14 @@ A parametric, single-slot stand designed to hold a closed MacBook vertically. An
 
 *Rendered from the actual Design 1.0 geometry. The sage color and surface finish are presentation concepts, not a photograph of a printed product. The model geometry is unchanged.*
 
+## 模拟使用效果 / Simulated use
+
+![黑色 hello 支架与 MacBook 的 AI 模拟使用效果，非实拍](assets/simulated-use-design-1.0.png)
+
+用户于 2026-09-24 确认的 AI 模拟效果图：黑色 PLA 支架、银色合盖 MacBook，补充盖面 Apple 标志，并按约 150 mm 底座与约 300 mm 电脑宽度调整视觉比例。用于展示桌面搭配，不是实拍或精确装配验证；模型尺寸以 STEP/CAD 为准。
+
+AI-generated use visualization, approved on 2026-09-24; not a photograph or an exact fit verification. The Apple logo identifies the depicted laptop and does not imply endorsement or affiliation.
+
 ## 中文介绍
 
 这个项目探索一款圆润、低调的桌面竖放支架：让合盖电脑占用更少的桌面空间，同时把连笔文字和蜂窝结构直接融入支撑造型。前侧 hello 本身就是开放挡架，背面细密蜂窝延伸至圆角边框，底部与底座连成一个整体。
