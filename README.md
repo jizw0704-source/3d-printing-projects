@@ -30,7 +30,7 @@ A growing collection of our 3D printing projects: CAD models, design illustratio
 
 ### 羽毛球笔筒 / Shuttlecock pen holder
 
-![羽毛球笔筒 V08 CAD 渲染，非实拍](shuttlecock-pen-holder/assets/pen-v08.png)
+![羽毛球笔筒 V08 CAD 渲染，非实拍](shuttlecock-pen-holder/assets/showcase-v08.png)
 
 16 片宽圆羽毛、镂空连接环与圆润球托，白色主体配黑色环带。高 90 mm，最大外径约 83.4 mm。V08 加强羽梗和羽尖；H2C 双色切片预计约 4 小时、69 g。已提交试打，实物结果待验收。
 

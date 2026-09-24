@@ -2,7 +2,7 @@
 
 首件试打版；H2C 双色切片已完成并检查支撑预览。2026-09-24 已重新提交打印，设备接收任务，实物结果待验收。白色主体搭配球托上沿黑色环带。
 
-![实际 CAD 渲染，不是实拍](assets/pen-v08.png)
+![实际 CAD 渲染，不是实拍](assets/showcase-v08.png)
 
 [双色 STEP](v08/shuttlecock-v08-two-color.step) · [单色 STL](v08/shuttlecock-v08-single.stl)
 

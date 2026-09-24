@@ -7,3 +7,5 @@
 - Build checks CAD validity, STL watertightness, STEP roundtrip and color partitions. These do not establish physical strength.
 - Commit CAD source, STEP/STL, validation reports and labeled renders; exclude local 3MF/G-code and device credentials.
 - Record slicing, job submission and physical acceptance separately.
+
+- Render showcase: `uv run --python 3.12 --with vtk==9.6.2 --with Pillow==12.3.0 python shuttlecock-pen-holder/src/render_showcase.py`. The figure uses actual V08 meshes; do not label it as a photograph.
