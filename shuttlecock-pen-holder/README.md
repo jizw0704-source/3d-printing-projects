@@ -6,6 +6,14 @@
 
 [双色 STEP](v08/shuttlecock-v08-two-color.step) · [单色 STL](v08/shuttlecock-v08-single.stl)
 
+## 模拟使用效果 / Simulated use
+
+![羽毛球笔筒 AI 模拟使用效果，非实拍](assets/simulated-use-v07.png)
+
+基于已认可的 V07 外观生成的 AI 桌面使用效果图，用于展示白色主体、黑色环带和装笔效果。V08 在此基础上微调羽梗与羽尖厚度；具体几何以 V08 CAD 文件为准。这不是打印实物照片，不能用来判断表面质量、尺寸精度或强度。
+
+AI-generated visualization based on the accepted V07 appearance, not a photograph. V08 adds small stem and tip reinforcements; the V08 CAD files define the actual geometry.
+
 ## V08 打印前微调
 
 保留已认可的 V07 外观。羽梗直径从 3.3 mm 微增至 3.6 mm，配套加强根部过渡；羽尖最后收口的径向厚度由 0.5 mm 增至 1.2 mm，减少过薄尖端。无公司 Logo。

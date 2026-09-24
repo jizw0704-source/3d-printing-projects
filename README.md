@@ -36,7 +36,7 @@ A growing collection of our 3D printing projects: CAD models, design illustratio
 
 A 16-feather shuttlecock-inspired holder with a white body and black band. CAD and slicing checks are complete; the first physical trial is pending acceptance.
 
-[中英文介绍](shuttlecock-pen-holder/) · [双色 STEP](shuttlecock-pen-holder/v08/shuttlecock-v08-two-color.step) · [单色 STL](shuttlecock-pen-holder/v08/shuttlecock-v08-single.stl) · [打印参数与记录](shuttlecock-pen-holder/v08/PRINT-PREPARATION.md)
+[中英文介绍与模拟效果图](shuttlecock-pen-holder/) · [双色 STEP](shuttlecock-pen-holder/v08/shuttlecock-v08-two-color.step) · [单色 STL](shuttlecock-pen-holder/v08/shuttlecock-v08-single.stl) · [打印参数与记录](shuttlecock-pen-holder/v08/PRINT-PREPARATION.md)
 
 ## 整理方式 / Organization
 
