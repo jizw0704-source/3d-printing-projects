@@ -1,0 +1,20 @@
+{
+  "step_valid": true,
+  "step_solids": 1,
+  "stl_watertight": true,
+  "stl_components": 1,
+  "stl_positive_volume": true,
+  "step_reloaded_bounds_xyz_mm": [
+    41.8947519218198,
+    12.671267106615517,
+    178.00000020000078
+  ],
+  "stl_bounds_xyz_mm": [
+    41.894630432128906,
+    12.657835006713867,
+    178.0
+  ],
+  "step_stl_relative_volume_difference": 0.0010434222035586094,
+  "preview_triangles": 79680,
+  "bounds_note": "Original build validation uses a conservative CAD bounding box; archive check records tighter bounds after STEP reload. Files retain their original geometry."
+}

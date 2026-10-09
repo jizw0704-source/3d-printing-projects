@@ -1,0 +1,28 @@
+{
+  "status": "design_concept",
+  "solid_valid": true,
+  "single_solid": true,
+  "step_volume_relative_error": 1.1888576142370684e-09,
+  "dimensions_mm": [
+    42.11548196286948,
+    13.646828850635718,
+    179.10750286538473
+  ],
+  "hanging_hole": "rounded teardrop",
+  "hole_rim_fillet_mm": 0.35,
+  "nominal_hole_length_mm": 15.45,
+  "nominal_handle_waist_width_mm": 23.5,
+  "longitudinal_centre_line": "straight",
+  "heel_cup_depth_at_38mm_section_mm": 5.054,
+  "blade_nominal_thickness_mm": [
+    2,
+    3.6
+  ],
+  "handle_nominal_thickness_mm": 7.5,
+  "parts": 1,
+  "unverified": [
+    "shoe and heel fit",
+    "load and repeated bending",
+    "print orientation and finish"
+  ]
+}

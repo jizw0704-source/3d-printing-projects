@@ -11,6 +11,7 @@ A growing collection of our 3D printing projects: CAD models, design illustratio
 | [hello · MacBook 竖放支架](macbook-vertical-stand/) | Design 1.0 / V14 | 打印完成，用户初步使用反馈良好 |
 | [Fishbone · 鱼骨收线器](fishbone-cable-organizer/) | V06 | 打印完成；使用方便，保留现有尺寸 |
 | [羽毛球笔筒 / Shuttlecock pen holder](shuttlecock-pen-holder/) | V08 | 双色切片完成，已提交首件试打，待实物验收 |
+| [小巧鞋拔 / Compact shoehorn](shoehorn/) | V04 | 外观已认可；模型检查通过，尚未试印 |
 
 ### hello · 竖放支架
 
@@ -41,6 +42,16 @@ A growing collection of our 3D printing projects: CAD models, design illustratio
 A 16-feather shuttlecock-inspired holder with a white body and black band. CAD and slicing checks are complete; the first physical trial is pending acceptance.
 
 [中英文介绍与模拟效果图](shuttlecock-pen-holder/) · [双色 STEP](shuttlecock-pen-holder/v08/shuttlecock-v08-two-color.step) · [单色 STL](shuttlecock-pen-holder/v08/shuttlecock-v08-single.stl) · [打印参数与记录](shuttlecock-pen-holder/v08/PRINT-PREPARATION.md)
+
+### 小巧鞋拔 / Compact shoehorn
+
+![鞋拔 V04 实际 CAD 渲染，非实拍](shoehorn/v04/shoehorn-design-v04.png)
+
+约 18 cm 长、4.2 cm 宽的一体鞋拔。直身搭配宽头横向凹弧，轻收腰手柄与圆滑水滴挂孔。用户已认可 V04 外观；CAD 和网格检查通过，尚未切片或打印，脚跟贴合与耐弯折待实物验证。
+
+An approximately 18 cm one-piece shoehorn with a straight lengthwise form, a concave heel guide, a softly waisted handle and a rounded teardrop hanging hole. Appearance accepted; physical testing is pending.
+
+[中英文介绍](shoehorn/) · [STEP](shoehorn/v04/shoehorn-v04.step) · [STL](shoehorn/v04/shoehorn-v04.stl) · [本地三维预览说明](shoehorn/#本地三维预览--local-3d-preview)
 
 ## 整理方式 / Organization
 
