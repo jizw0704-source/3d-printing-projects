@@ -51,6 +51,10 @@ A 16-feather shuttlecock-inspired holder with a white body and black band. CAD a
 
 An approximately 18 cm one-piece shoehorn with a straight lengthwise form, a concave heel guide, a softly waisted handle and a rounded teardrop hanging hole. Appearance accepted; physical testing is pending.
 
+![鞋拔 V04 AI 模拟使用效果，非实拍](shoehorn/assets/simulated-use-v04.png)
+
+*AI 模拟穿鞋场景，非打印实拍；实际形状、尺寸与适配以 CAD 和实物测试为准。*
+
 [中英文介绍](shoehorn/) · [STEP](shoehorn/v04/shoehorn-v04.step) · [STL](shoehorn/v04/shoehorn-v04.stl) · [本地三维预览说明](shoehorn/#本地三维预览--local-3d-preview)
 
 ## 整理方式 / Organization

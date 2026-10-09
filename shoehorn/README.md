@@ -6,6 +6,16 @@
 
 [下载 STEP](v04/shoehorn-v04.step) · [下载 STL](v04/shoehorn-v04.stl) · [CAD 检查记录](v04/validation.json) · [网格检查记录](v04/mesh-checks.json)
 
+## 模拟使用效果 / Simulated use
+
+![鞋拔 V04 AI 模拟使用效果，非打印实拍](assets/simulated-use-v04.png)
+
+以 V04 模型渲染为参考生成的穿鞋场景：坐着穿鞋，将宽头放在脚跟与鞋后帮之间，手握上方手柄辅助脚跟滑入。此图为 **AI 模拟使用效果，非实拍**；实际形状和尺寸以 CAD 为准，不代表已完成鞋型适配、打印或耐用性验证。
+
+AI-generated scene using the V04 CAD render as a visual reference. The shoehorn guides the heel past the rear shoe counter during seated use. This is **a simulated scene, not a photograph or fit test**. Refer to the CAD files for dimensions and geometry.
+
+[图片生成说明与提示词](assets/simulated-use-v04-generation.json)
+
 ## 形状与尺寸 / Shape and dimensions
 
 | 项目 / Item | V04 |
@@ -22,7 +32,7 @@ V04 调整了手柄两侧轮廓与挂孔形状，继续保持约 18 cm 的小巧
 
 - **已完成**：外观迭代、单实体 CAD 有效性检查、STEP 回读、STL 闭合与正体积检查、网格重新加载检查、交互预览。
 - **待完成**：材料与打印朝向选择、切片、首次试印、脚跟与鞋型适配、握持手感、反复弯折验证。
-- 图片来自实际模型渲染，属于设计展示；没有打印实拍，也没有已验证的打印参数。
+- CAD 展示图来自实际模型；穿鞋场景为 AI 模拟。均非打印实拍，也没有已验证的打印参数。
 
 ## 本地三维预览 / Local 3D preview
 
@@ -50,6 +60,6 @@ uv run --python 3.12 python -m http.server 8784 --bind 127.0.0.1 --directory sho
 
 A compact one-piece shoehorn intended for seated use. V04 keeps a straight longitudinal centre line and a transversely concave heel guide, with a softly waisted handle and a rounded teardrop hanging hole. Overall bounds are approximately 178 × 41.9 × 12.7 mm.
 
-The user has accepted the appearance. CAD validity, STEP round-trip, watertight positive-volume STL and mesh reload checks have passed. These checks do not establish heel fit, comfort or resistance to repeated bending. Slicing and physical printing have not yet been performed. Images are renders of the actual model, not photographs. Material and colour remain open choices.
+The user has accepted the appearance. CAD validity, STEP round-trip, watertight positive-volume STL and mesh reload checks have passed. These checks do not establish heel fit, comfort or resistance to repeated bending. Slicing and physical printing have not yet been performed. CAD images are renders of the actual model; the use scene is AI-generated. Neither is a photograph of a printed prototype. Material and colour remain open choices.
 
 Run the local server command above to inspect and rotate the model. Original CAD source, STEP/STL, renders, validation reports and preview assets are included under the repository's [MIT License](../LICENSE).

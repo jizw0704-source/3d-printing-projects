@@ -1,0 +1,12 @@
+{
+  "kind": "AI simulated use",
+  "tool": "image_gen built-in",
+  "date": "2026-10-09",
+  "image": "simulated-use-v04.png",
+  "reference_roles": [
+    "V04 CAD product render: ../v04/shoehorn-render.png",
+    "V04 local preview screenshot: front silhouette reference"
+  ],
+  "prompt": "Use case: photorealistic-natural. Asset: a realistic simulated-use image for the GitHub project of a compact 3D-printable shoehorn.\nInput image 1 is a geometry reference: the real V04 CAD product render. Input image 2 is a front silhouette reference only; ignore and do not reproduce its web interface, labels or controls.\nCreate a photorealistic lifestyle photograph-style image in a tidy home entryway with a light wooden bench and neutral floor, soft natural daylight. Frame a seated adult from mid-calf down, with one natural hand holding the reference shoehorn while guiding a light-gray socked heel into an unbranded low-top sneaker with loosened laces. Show the believable action just before the heel slides down: the wide concave blade goes inside the shoe at the BACK, BETWEEN THE HEEL AND THE REAR SHOE COUNTER; the narrow handle projects above and behind the heel. The tool must not go beside the foot, under the sole, through the heel, or at the shoe tongue. Grip the waist below the hanging hole so the rounded handle end and teardrop hole remain visible.\nPreserve the specific reference silhouette: one-piece straight lengthwise shoehorn, approximately 178 mm long and 42 mm maximum blade width, elongated wide rounded shallow concave blade, smoothly narrowed waist, slightly wider rounded handle end, one small teardrop hanging hole whose point faces toward the blade. No hooked or bent shaft, no extra holes, no giant long handle. Correct scale: the full tool is about two-thirds of the 27 cm adult shoe length. Use the muted sage matte surface from the reference, subtle believable 3D-print layer texture, rounded edges. Natural human anatomy, exactly five fingers on the visible hand. Close enough to see the tool clearly, relaxed everyday scene, landscape composition, no logos, no packaging, no invented features. The image is a simulation, not evidence of an actual print.\nAdd only one discreet readable caption in the lower left, exact text: \"AI 模拟使用效果 · 非实拍\". No other text.",
+  "limitations": "AI-generated scene, not a photograph or measured fit test. Product dimensions and geometry are defined by the CAD files."
+}
