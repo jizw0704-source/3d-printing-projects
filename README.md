@@ -31,6 +31,12 @@ A growing collection of our 3D printing projects: CAD models, design illustratio
 
 两对浅弧骨节、双端卡槽和现有挂钩适用的悬挂孔。用户反馈“比想象中大一些，挺方便的”，明确保留 V06 尺寸，不做紧凑版。上图为 CAD 设计渲染，非实拍，实际打印使用黑色 PLA；挂钩适配和不同线缆容量仍待验证。
 
+![鱼骨 V06 绕线与悬挂的 AI 模拟使用效果，非实拍](fishbone-cable-organizer/assets/wound-cable-illustration.png)
+
+*AI 模拟使用效果，非打印实拍。图示展示绕线与挂在现有挂钩上的使用方式；颜色、线缆容量与挂钩适配以实物为准。*
+
+*AI-generated use illustration, not a photograph. Cable capacity and hook fit require physical testing.*
+
 [项目介绍与设计图](fishbone-cable-organizer/) · [STEP](fishbone-cable-organizer/models/v06/fishbone-v06.step) · [STL](fishbone-cable-organizer/models/v06/fishbone-v06.stl) · [打印记录](fishbone-cable-organizer/docs/PRINTING.md)
 
 ### 羽毛球笔筒 / Shuttlecock pen holder
