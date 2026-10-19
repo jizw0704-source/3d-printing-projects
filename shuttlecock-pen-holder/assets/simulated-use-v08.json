@@ -1,0 +1,22 @@
+{
+  "classification": "CAD-rendered desktop use illustration; not a photograph",
+  "version": "V08",
+  "source_meshes": [
+    {
+      "path": "shuttlecock-pen-holder/v08/shuttlecock-v08-white.stl",
+      "sha256": "d075e79e1d6a83d440b35dba7652d82551925045fb5d8e520ec084b0cda88169",
+      "modifiers": []
+    },
+    {
+      "path": "shuttlecock-pen-holder/v08/shuttlecock-v08-black.stl",
+      "sha256": "61ee50fe590afcf5aad7566a64a145cb5adad7767e91afed2450caf81902671f",
+      "modifiers": []
+    }
+  ],
+  "geometry_changes": "none; shared coordinates preserved, millimetres converted to metres",
+  "props": "three illustrative pens; no capacity or fit validation implied",
+  "renderer": "local Blender 5.2.2 LTS, Cycles, 96 samples",
+  "mcp_backend": "unavailable; local background execution used",
+  "image": "simulated-use-v08.png",
+  "comb_design_source_sha256": "738ba2182f7e2160b3a154ae202eba4e92cfba4032a6b856794e526116cbd013"
+}

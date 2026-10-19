@@ -1,0 +1,15 @@
+{
+  "image": "design-v13.png",
+  "classification": "two-view actual-mesh design render, not a photograph",
+  "version": "V13",
+  "source": "../v13/massage-comb-v13.stl",
+  "source_sha256": "738ba2182f7e2160b3a154ae202eba4e92cfba4032a6b856794e526116cbd013",
+  "geometry_changes": "none; rendered from STL with unit conversion only",
+  "views": [
+    "front",
+    "perspective-like orthographic"
+  ],
+  "renderer": "local Blender background Cycles; no MCP backend available",
+  "composition": "neutral board matching the existing two-view project galleries",
+  "physical_validation": "not implied by this image"
+}

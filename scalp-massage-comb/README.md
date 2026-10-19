@@ -8,13 +8,19 @@ A compact, one-piece, five-tooth scalp massage comb with rounded tips, a gently 
 
 **Status:** V13 appearance accepted. Mesh checks and a slow PLA slicing pass are complete. Printing is paused at the user's request; no print has been submitted and no physical prototype has been evaluated.
 
-## 拟真实效果图 / Simulated appearance
+## 设计图 / Design
+
+![V13 按摩梳正面与斜视设计图，实际 STL 渲染，非实拍](assets/design-v13.png)
+
+_当前 V13 网格的正面与斜视展示，保留五齿、18 mm 齿距与约 20 mm 标称齿长。展示色不指定打印颜色。 / Two views rendered from the current V13 mesh; presentation colour does not prescribe the printing material._
+
+## 实际效果图 / In context
 
 ![V13 黑色 PLA 桌面效果，使用实际 STL 渲染，非打印实拍](assets/showcase-v13.png)
 
-*实际 V13 STL 的拟真实渲染，非实拍。黑色 PLA、细微层纹与桌面光照仅用于展示；不代表打印表面、柔软度或舒适性。模型未为图片改变形状。*
+_实际 V13 STL 的拟真实渲染，非实拍。黑色 PLA、细微层纹与桌面光照仅用于展示；不代表打印表面、柔软度或舒适性。模型未为图片改变形状。_
 
-*Photorealistic render of the actual V13 STL, not a photograph. Black PLA appearance and layer texture are illustrative. The product geometry is unchanged.*
+_Photorealistic render of the actual V13 STL, not a photograph. Black PLA appearance and layer texture are illustrative. The product geometry is unchanged._
 
 [下载 V13 STL](v13/massage-comb-v13.stl) · [三维预览文件](v13/viewer.html) · [几何检查](v13/validation.json) · [打印准备记录](docs/PRINT-PREPARATION-V13.md) · [设计演进](docs/DESIGN-HISTORY.md)
 
@@ -22,15 +28,15 @@ GitHub 展示文件源码，交互三维预览需下载仓库后通过本地 HTT
 
 ## 尺寸与结构 / Dimensions and structure
 
-| 项目 / Item | V13 |
-| --- | --- |
-| 整体尺寸 / Overall size | 90.53 × 49.22 × 15.30 mm |
-| 梳齿数量 / Teeth | 5 |
-| 齿中心间距 / Tooth pitch | 18 mm |
-| 标称外露齿长 / Nominal exposed length | 约 / approximately 20 mm |
-| Y=18 mm 截面最小齿间隙 / Minimum gap at Y=18 mm | 约 / approximately 6.44 mm |
-| 模型结构 / Mesh | 封闭、法向一致、正体积、单一连通体 / Watertight, consistently wound, positive volume, connected |
-| 当前文件 / Current format | STL；无对应 V13 STEP / STL; no matching V13 STEP |
+| 项目 / Item                                     | V13                                                                                             |
+| ----------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| 整体尺寸 / Overall size                         | 90.53 × 49.22 × 15.30 mm                                                                        |
+| 梳齿数量 / Teeth                                | 5                                                                                               |
+| 齿中心间距 / Tooth pitch                        | 18 mm                                                                                           |
+| 标称外露齿长 / Nominal exposed length           | 约 / approximately 20 mm                                                                        |
+| Y=18 mm 截面最小齿间隙 / Minimum gap at Y=18 mm | 约 / approximately 6.44 mm                                                                      |
+| 模型结构 / Mesh                                 | 封闭、法向一致、正体积、单一连通体 / Watertight, consistently wound, positive volume, connected |
+| 当前文件 / Current format                       | STL；无对应 V13 STEP / STL; no matching V13 STEP                                                |
 
 V13 修改了实际网格表面，缓和握持部前缘与五个齿根之间的 V 形硬折线。局部最大调整约 1.02 mm，体积相对 V12 减少约 0.885%。五齿、间距、约 20 mm 标称齿长与上弯形状保留。齿部接触区及后握持区的双向确定性抽样偏差最大约 0.019 mm；这不是全表面误差上界。
 

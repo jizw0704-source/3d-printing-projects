@@ -6,77 +6,123 @@ A growing collection of our 3D printing projects: CAD models, design illustratio
 
 ## 项目一览 / Projects
 
-| 项目 / Project | 当前版本 | 实物进展 |
-| --- | --- | --- |
-| [hello · MacBook 竖放支架](macbook-vertical-stand/) | Design 1.0 / V14 | 打印完成，用户初步使用反馈良好 |
-| [Fishbone · 鱼骨收线器](fishbone-cable-organizer/) | V06 | 打印完成；使用方便，保留现有尺寸 |
-| [羽毛球笔筒 / Shuttlecock pen holder](shuttlecock-pen-holder/) | V08 | 双色切片完成，已提交首件试打，待实物验收 |
-| [小巧鞋拔 / Compact shoehorn](shoehorn/) | V04 | 外观已认可；模型检查通过，尚未试印 |
-| [掌心按摩梳 / Palm massage comb](scalp-massage-comb/) | V13 试验 | 外观已认可；慢速切片完成，暂缓打印，未提交任务 |
+| 项目 / Project                                                 | 当前版本         | 实物进展                                       |
+| -------------------------------------------------------------- | ---------------- | ---------------------------------------------- |
+| [hello · MacBook 竖放支架](macbook-vertical-stand/)            | Design 1.0 / V14 | 打印完成，用户初步使用反馈良好                 |
+| [Fishbone · 鱼骨收线器](fishbone-cable-organizer/)             | V06              | 打印完成；使用方便，保留现有尺寸               |
+| [羽毛球笔筒 / Shuttlecock pen holder](shuttlecock-pen-holder/) | V08              | 双色切片完成，已提交首件试打，待实物验收       |
+| [小巧鞋拔 / Compact shoehorn](shoehorn/)                       | V04              | 外观已认可；模型检查通过，尚未试印             |
+| [掌心按摩梳 / Palm massage comb](scalp-massage-comb/)          | V13 试验         | 外观已认可；慢速切片完成，暂缓打印，未提交任务 |
+
+## 图像说明 / Image guide
+
+每个项目统一展示两类图片：**设计图**说明形状、结构与尺寸；**实际效果图**展示使用场景或拟真实外观。目前的场景图为 CAD 渲染或 AI 模拟，均在图片下标注，不能当作打印实拍或实物验收依据。真实照片只在取得实拍后以“实拍”标注。
+
+Each project shows a design view and an in-context view. CAD renders, AI illustrations and physical photographs are identified explicitly; a simulated scene does not establish physical validation.
 
 ### hello · 竖放支架
 
-![支架 CAD 展示渲染，非实拍](macbook-vertical-stand/v14/showcase-v14.png)
+**Design 1.0 / V14** · 开放 hello 前挡架、蜂窝后框与 150 × 45 mm 一体底座。用户已确认打印完成，初步使用反馈良好；长期稳定性仍待验证。
 
-开放 hello 前挡架、蜂窝后框和一体底座。图为 CAD 展示渲染，实际打印使用黑色 PLA。用户已确认打印完成及初步使用良好；强度和长期稳定性尚未系统验证。
+A compact closed-laptop stand with open lettering and a honeycomb rear frame. The first print and positive initial use are user-reported.
 
-[项目介绍](macbook-vertical-stand/) · [STEP](macbook-vertical-stand/v14/stand-v14.step) · [STL](macbook-vertical-stand/v14/stand-v14.stl) · [打印记录](macbook-vertical-stand/docs/first-print-2026-09-16.md)
+#### 设计图 / Design
 
-![hello 支架 AI 模拟使用效果，非实拍](macbook-vertical-stand/assets/simulated-use-design-1.0.png)
+![hello · 竖放支架 设计图，非实拍](macbook-vertical-stand/v14/showcase-v14.png)
 
-*AI 模拟使用效果，非打印实拍；具体几何与适配以 CAD 和实测为准。*
+_鼠尾草绿 CAD 展示渲染，来自实际模型。_
+
+#### 实际效果图 / In context
+
+![hello · 竖放支架 模拟实际效果，非实拍](macbook-vertical-stand/assets/simulated-use-design-1.0.png)
+
+_AI 模拟桌面使用场景，非打印实拍；电脑适配以实测为准。_
+
+[项目介绍 / Project](macbook-vertical-stand/) · [STEP](macbook-vertical-stand/v14/stand-v14.step) · [STL](macbook-vertical-stand/v14/stand-v14.stl) · [打印记录](macbook-vertical-stand/docs/first-print-2026-09-16.md)
 
 ### Fishbone · 鱼骨收线器
 
-![鱼骨 V06 设计渲染](fishbone-cable-organizer/assets/design-v06.png)
+**V06** · 两对浅弧骨节、双端卡槽与悬挂孔。首件已打印，用户反馈使用方便，保留现有尺寸；线缆容量和挂钩适配仍待验证。
 
-两对浅弧骨节、双端卡槽和现有挂钩适用的悬挂孔。用户反馈“比想象中大一些，挺方便的”，明确保留 V06 尺寸，不做紧凑版。上图为 CAD 设计渲染，非实拍，实际打印使用黑色 PLA；挂钩适配和不同线缆容量仍待验证。
+A one-piece cable organizer with two curved rib pairs, two cable slots and a hanging eye. Keep the current V06 size.
 
-![鱼骨 V06 绕线与悬挂的 AI 模拟使用效果，非实拍](fishbone-cable-organizer/assets/wound-cable-illustration.png)
+#### 设计图 / Design
 
-*AI 模拟使用效果，非打印实拍。图示展示绕线与挂在现有挂钩上的使用方式；颜色、线缆容量与挂钩适配以实物为准。*
+![Fishbone · 鱼骨收线器 设计图，非实拍](fishbone-cable-organizer/assets/design-v06.png)
 
-*AI-generated use illustration, not a photograph. Cable capacity and hook fit require physical testing.*
+_V06 正视与透视 CAD 设计渲染。_
 
-[项目介绍与设计图](fishbone-cable-organizer/) · [STEP](fishbone-cable-organizer/models/v06/fishbone-v06.step) · [STL](fishbone-cable-organizer/models/v06/fishbone-v06.stl) · [打印记录](fishbone-cable-organizer/docs/PRINTING.md)
+#### 实际效果图 / In context
+
+![Fishbone · 鱼骨收线器 模拟实际效果，非实拍](fishbone-cable-organizer/assets/wound-cable-illustration.png)
+
+_AI 模拟绕线与悬挂场景，非实拍或经验证的线缆路径。_
+
+[项目介绍 / Project](fishbone-cable-organizer/) · [STEP](fishbone-cable-organizer/models/v06/fishbone-v06.step) · [STL](fishbone-cable-organizer/models/v06/fishbone-v06.stl) · [打印记录](fishbone-cable-organizer/docs/PRINTING.md)
 
 ### 羽毛球笔筒 / Shuttlecock pen holder
 
-![羽毛球笔筒 V08 CAD 渲染，非实拍](shuttlecock-pen-holder/assets/showcase-v08.png)
+**V08** · 16 片宽圆羽毛、镂空连接环与圆润球托，白色主体配黑色环带。高 90 mm，最大外径约 83.4 mm；打印与实物进展见项目记录。
 
-16 片宽圆羽毛、镂空连接环与圆润球托，白色主体配黑色环带。高 90 mm，最大外径约 83.4 mm。V08 加强羽梗和羽尖；H2C 双色切片预计约 4 小时、69 g。已提交试打，实物结果待验收。
+A 16-feather pen holder, 90 mm tall and approximately 83.4 mm wide, with a white body and black band.
 
-A 16-feather shuttlecock-inspired holder with a white body and black band. CAD and slicing checks are complete; the first physical trial is pending acceptance.
+#### 设计图 / Design
 
-[中英文介绍与模拟效果图](shuttlecock-pen-holder/) · [双色 STEP](shuttlecock-pen-holder/v08/shuttlecock-v08-two-color.step) · [单色 STL](shuttlecock-pen-holder/v08/shuttlecock-v08-single.stl) · [打印参数与记录](shuttlecock-pen-holder/v08/PRINT-PREPARATION.md)
+![羽毛球笔筒 / Shuttlecock pen holder 设计图，非实拍](shuttlecock-pen-holder/assets/showcase-v08.png)
+
+_V08 白黑分区的两视图 CAD 设计渲染。_
+
+#### 实际效果图 / In context
+
+![羽毛球笔筒 / Shuttlecock pen holder 模拟实际效果，非实拍](shuttlecock-pen-holder/assets/simulated-use-v08.png)
+
+_当前 V08 实际模型的桌面装笔渲染，非打印实拍；道具不代表容量或稳定性验证。_
+
+[项目介绍 / Project](shuttlecock-pen-holder/) · [双色 STEP](shuttlecock-pen-holder/v08/shuttlecock-v08-two-color.step) · [单色 STL](shuttlecock-pen-holder/v08/shuttlecock-v08-single.stl) · [打印记录](shuttlecock-pen-holder/v08/PRINT-PREPARATION.md)
 
 ### 小巧鞋拔 / Compact shoehorn
 
-![鞋拔 V04 实际 CAD 渲染，非实拍](shoehorn/v04/shoehorn-design-v04.png)
+**V04** · 约 18 cm 的直身鞋拔，搭配脚跟凹弧、轻收腰手柄和水滴挂孔。外观已认可；脚跟贴合和耐弯折仍待实物验证。
 
-约 18 cm 长、4.2 cm 宽的一体鞋拔。直身搭配宽头横向凹弧，轻收腰手柄与圆滑水滴挂孔。用户已认可 V04 外观；CAD 和网格检查通过，尚未切片或打印，脚跟贴合与耐弯折待实物验证。
+A compact one-piece shoehorn with a concave heel guide, a waisted grip and a teardrop hanging hole.
 
-An approximately 18 cm one-piece shoehorn with a straight lengthwise form, a concave heel guide, a softly waisted handle and a rounded teardrop hanging hole. Appearance accepted; physical testing is pending.
+#### 设计图 / Design
 
-![鞋拔 V04 AI 模拟使用效果，非实拍](shoehorn/assets/simulated-use-v04.png)
+![小巧鞋拔 / Compact shoehorn 设计图，非实拍](shoehorn/v04/shoehorn-design-v04.png)
 
-*AI 模拟穿鞋场景，非打印实拍；实际形状、尺寸与适配以 CAD 和实物测试为准。*
+_V04 整体形状与宽头弧面的 CAD 设计渲染。_
 
-[中英文介绍](shoehorn/) · [STEP](shoehorn/v04/shoehorn-v04.step) · [STL](shoehorn/v04/shoehorn-v04.stl) · [本地三维预览说明](shoehorn/#本地三维预览--local-3d-preview)
+#### 实际效果图 / In context
+
+![小巧鞋拔 / Compact shoehorn 模拟实际效果，非实拍](shoehorn/assets/simulated-use-v04.png)
+
+_AI 模拟坐姿穿鞋场景，非打印实拍或鞋型适配验证。_
+
+[项目介绍 / Project](shoehorn/) · [STEP](shoehorn/v04/shoehorn-v04.step) · [STL](shoehorn/v04/shoehorn-v04.stl) · [三维预览说明](shoehorn/#本地三维预览--local-3d-preview)
 
 ### 掌心按摩梳 / Palm massage comb
 
-![V13 黑色 PLA 拟真实效果，使用实际 STL 渲染，非实拍](scalp-massage-comb/assets/showcase-v13.png)
+**V13** · 五个稀疏圆润短齿、浅凹齿列与柔和掌握部，约 90.53 × 49.22 × 15.30 mm。慢速切片完成，用户决定暂缓打印，未提交任务。
 
-五个稀疏圆润短齿、浅凹齿列与柔和掌握部，约 90.53 × 49.22 × 15.30 mm。V13 优化握持部与齿根之间的衔接；外观已认可，模型检查与慢速切片已完成，预计约 2 小时 27 分钟、21.46 g。用户决定暂缓打印，未提交任务，实物触感和打印效果待验证。上图为实际模型的模拟渲染，非打印实拍。
+A five-tooth palm comb with rounded contacts and a blended grip. Slicing is complete; printing remains paused with no task submitted.
 
-Five rounded teeth with a gently curved layout and a blended palm grip. V13 is mesh-checked and sliced; printing is paused, with no task submitted. Image: a photorealistic render of the actual model, not a photograph.
+#### 设计图 / Design
 
-[中英文介绍](scalp-massage-comb/) · [V13 STL](scalp-massage-comb/v13/massage-comb-v13.stl) · [设计演进](scalp-massage-comb/docs/DESIGN-HISTORY.md) · [打印准备](scalp-massage-comb/docs/PRINT-PREPARATION-V13.md)
+![掌心按摩梳 / Palm massage comb 设计图，非实拍](scalp-massage-comb/assets/design-v13.png)
+
+_V13 正面与斜视设计渲染，来自当前实际 STL。_
+
+#### 实际效果图 / In context
+
+![掌心按摩梳 / Palm massage comb 模拟实际效果，非实拍](scalp-massage-comb/assets/showcase-v13.png)
+
+_当前 V13 的黑色 PLA 桌面效果渲染，非实拍；触感与表面效果仍待验证。_
+
+[项目介绍 / Project](scalp-massage-comb/) · [V13 STL](scalp-massage-comb/v13/massage-comb-v13.stl) · [设计演进](scalp-massage-comb/docs/DESIGN-HISTORY.md) · [打印准备](scalp-massage-comb/docs/PRINT-PREPARATION-V13.md)
 
 ## 整理方式 / Organization
 
-每个作品独立保存：中英文介绍、CAD 源码、STEP/STL、设计图和实拍、打印参数、版本演进及试用反馈。后续项目放入新的作品目录，并在本页添加图片和入口。具体生成和检查命令见各项目 README。
+每个作品独立保存：中英文介绍、CAD 源码、STEP/STL、设计图、实际效果图及已取得的实拍、打印参数、版本演进及试用反馈。后续项目放入新的作品目录，并在本页添加图片和入口。具体生成和检查命令见各项目 README。
 
 Each project keeps its own documentation and build instructions. Renders, AI illustrations, slicer estimates and physical observations are labeled separately. A successful print is not a comprehensive strength or durability certification.
 

@@ -16,13 +16,15 @@ A parametric, single-slot stand designed to hold a closed MacBook vertically. An
 
 详细记录 / Detailed record: [首次完整打印与设计回顾](docs/first-print-2026-09-16.md)。
 
+## 设计图 / Design
+
 ![Design 1.0 鼠尾草绿展示渲染，包含前侧和后侧视角](v14/showcase-v14.png)
 
-*基于 Design 1.0 真实模型的鼠尾草绿展示渲染。颜色与表面质感仅为展示设定，不代表实物照片或已完成打印；不改变模型几何。*
+_基于 Design 1.0 真实模型的鼠尾草绿展示渲染。颜色与表面质感仅为展示设定，不代表实物照片或已完成打印；不改变模型几何。_
 
-*Rendered from the actual Design 1.0 geometry. The sage color and surface finish are presentation concepts, not a photograph of a printed product. The model geometry is unchanged.*
+_Rendered from the actual Design 1.0 geometry. The sage color and surface finish are presentation concepts, not a photograph of a printed product. The model geometry is unchanged._
 
-## 模拟使用效果 / Simulated use
+## 实际效果图 / In context
 
 ![黑色 hello 支架与 MacBook 的 AI 模拟使用效果，非实拍](assets/simulated-use-design-1.0.png)
 
@@ -70,14 +72,14 @@ Design 1.0 is the current stable design baseline. The repository includes editab
 - hello 整圈圆角未通过导出检查，最终版本未采用；实际接触处仍须软垫保护。
 - 通常建议先打印匹配的小试槽；本次用户选择直接打印完整支架，试槽未执行。45 mm 窄底座仍需验证侧推和线缆牵拉时的稳定性。
 
-| 内容 / Contents | 文件 / Files |
-| --- | --- |
-| 说明与测试清单 / Notes and test checklist | [v14/README.md](v14/README.md) |
-| 主体模型 / Stand | [STEP](v14/stand-v14.step) · [STL](v14/stand-v14.stl) |
-| 匹配小试槽 / Fit gauge | [STEP](v14/fit-gauge-v14.step) · [STL](v14/fit-gauge-v14.stl) |
-| 参数化源码 / Parametric source | [v14/design.py](v14/design.py) |
-| 几何检查记录 / Geometry checks | [v14/validation.json](v14/validation.json) |
-| 三维预览 / Interactive 3D preview | [v14/viewer.html](v14/viewer.html)，下载后本地打开或启动下述服务 / Download and open locally, or serve as below |
+| 内容 / Contents                           | 文件 / Files                                                                                                    |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| 说明与测试清单 / Notes and test checklist | [v14/README.md](v14/README.md)                                                                                  |
+| 主体模型 / Stand                          | [STEP](v14/stand-v14.step) · [STL](v14/stand-v14.stl)                                                           |
+| 匹配小试槽 / Fit gauge                    | [STEP](v14/fit-gauge-v14.step) · [STL](v14/fit-gauge-v14.stl)                                                   |
+| 参数化源码 / Parametric source            | [v14/design.py](v14/design.py)                                                                                  |
+| 几何检查记录 / Geometry checks            | [v14/validation.json](v14/validation.json)                                                                      |
+| 三维预览 / Interactive 3D preview         | [v14/viewer.html](v14/viewer.html)，下载后本地打开或启动下述服务 / Download and open locally, or serve as below |
 
 本项目将 STEP、STL、预览及验证报告作为设计交付物随源码保存。当前目录仅保留 Design 1.0，旧版已移除，仍可通过 Git 历史恢复。稳定版指设计基线，实物验证仍待完成。
 

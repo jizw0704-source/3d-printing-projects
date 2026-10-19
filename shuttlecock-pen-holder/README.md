@@ -2,17 +2,23 @@
 
 首件试打版；H2C 双色切片已完成并检查支撑预览。2026-09-24 已重新提交打印，设备接收任务，实物结果待验收。白色主体搭配球托上沿黑色环带。
 
+## 设计图 / Design
+
 ![实际 CAD 渲染，不是实拍](assets/showcase-v08.png)
+
+_当前 V08 的两视图 CAD 展示，非打印实拍。 / Two-view CAD render of the current V08 model, not a photograph._
 
 [双色 STEP](v08/shuttlecock-v08-two-color.step) · [单色 STL](v08/shuttlecock-v08-single.stl)
 
-## 模拟使用效果 / Simulated use
+## 实际效果图 / In context
 
-![羽毛球笔筒 AI 模拟使用效果，非实拍](assets/simulated-use-v07.png)
+![V08 羽毛球笔筒装笔场景，实际 CAD 模型渲染，非实拍](assets/simulated-use-v08.png)
 
-基于已认可的 V07 外观生成的 AI 桌面使用效果图，用于展示白色主体、黑色环带和装笔效果。V08 在此基础上微调羽梗与羽尖厚度；具体几何以 V08 CAD 文件为准。这不是打印实物照片，不能用来判断表面质量、尺寸精度或强度。
+直接使用当前 V08 的白色与黑色 STL，保持共享坐标，渲染白色羽毛、黑色环带和桌面装笔效果。笔是场景道具，模型几何未改动；此图不是打印实拍，不用于判断容量、稳定性或表面质量。此前基于 V07 的 AI 图片保留为历史素材，不再作为当前封面。
 
-AI-generated visualization based on the accepted V07 appearance, not a photograph. V08 adds small stem and tip reinforcements; the V08 CAD files define the actual geometry.
+Rendered directly from the current V08 meshes with illustrative pens. Shared coordinates and product geometry are preserved. This is a simulated desktop scene, not a photograph or a capacity, stability or print-quality test.
+
+[图片来源与渲染记录](assets/simulated-use-v08.json)
 
 ## V08 打印前微调
 

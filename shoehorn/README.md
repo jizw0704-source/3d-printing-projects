@@ -2,11 +2,15 @@
 
 一体式辅助穿鞋工具，按坐着穿鞋、方便收纳的场景设计。V04 外观已获用户认可，尚未切片或打印。
 
+## 设计图 / Design
+
 ![V04 实际 CAD 模型渲染，非实拍](v04/shoehorn-design-v04.png)
+
+_当前 V04 的整体和宽头细节 CAD 渲染，非打印实拍。 / Current V04 CAD overview and heel-guide detail, not a photograph._
 
 [下载 STEP](v04/shoehorn-v04.step) · [下载 STL](v04/shoehorn-v04.stl) · [CAD 检查记录](v04/validation.json) · [网格检查记录](v04/mesh-checks.json)
 
-## 模拟使用效果 / Simulated use
+## 实际效果图 / In context
 
 ![鞋拔 V04 AI 模拟使用效果，非打印实拍](assets/simulated-use-v04.png)
 
@@ -18,13 +22,13 @@ AI-generated scene using the V04 CAD render as a visual reference. The shoehorn 
 
 ## 形状与尺寸 / Shape and dimensions
 
-| 项目 / Item | V04 |
-| --- | --- |
+| 项目 / Item               | V04                                                                               |
+| ------------------------- | --------------------------------------------------------------------------------- |
 | 整体尺寸 / Overall bounds | 约 / approximately 178 × 41.9 × 12.7 mm（长 × 宽 × 厚度方向包络，按 STEP 回读计） |
-| 主体 / Body | 一体，沿长度方向的中心线保持直 / one piece, straight longitudinal centre line |
-| 宽头 / Heel guide | 横向凹弧，38 mm 截面名义深度约 5.05 mm / transverse concavity |
-| 手柄 / Handle | 轻收腰，名义厚度 7.5 mm / softly waisted, nominal thickness 7.5 mm |
-| 挂孔 / Hanging hole | 圆滑水滴形，名义长度 15.45 mm，孔口圆角 0.35 mm / rounded teardrop |
+| 主体 / Body               | 一体，沿长度方向的中心线保持直 / one piece, straight longitudinal centre line     |
+| 宽头 / Heel guide         | 横向凹弧，38 mm 截面名义深度约 5.05 mm / transverse concavity                     |
+| 手柄 / Handle             | 轻收腰，名义厚度 7.5 mm / softly waisted, nominal thickness 7.5 mm                |
+| 挂孔 / Hanging hole       | 圆滑水滴形，名义长度 15.45 mm，孔口圆角 0.35 mm / rounded teardrop                |
 
 V04 调整了手柄两侧轮廓与挂孔形状，继续保持约 18 cm 的小巧尺寸。展示颜色仅用于观察形状，不指定打印颜色。宽头的凹弧尚未经过具体脚跟尺寸的适配验证。
 

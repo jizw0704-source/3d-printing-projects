@@ -7,29 +7,13 @@ A minimal, one-piece 3D-printable cable organizer with sparse curved ribs, two c
 **当前版本：V06 · 首件试打印 / First prototype print**
 2026-09-22：用户确认首件打印完成，提供实拍，并反馈“比想象中大一些，挺方便的”。保留当前 V06 尺寸，不做紧凑版；长期性能和容量仍待验证。The first print is complete, with a real photo and positive initial usability feedback. Keep the current size; no compact version is planned.
 
+## 设计图 / Design
+
 ![V06 正视与透视设计渲染](assets/design-v06.png)
 
-*依据 V06 模型生成的设计渲染。展示色为灰绿色，本次实际打印材料为黑色 PLA。 / CAD render; the first print uses black PLA.*
+_依据 V06 模型生成的设计渲染。展示色为灰绿色，本次实际打印材料为黑色 PLA。 / CAD render; the first print uses black PLA._
 
-## 设计要点 / Design
-
-- **两对浅弧骨节**：稀疏布局，圆润截面，保持简约外形。
-- **双端卡线**：鱼尾两侧各一个卡槽，尝试分别固定靠近两个插头的线身。
-- **独立挂孔**：直径 10 mm，挂在已有挂钩上，无需另做洞洞板接口。
-- **一体平背**：背面平放打印；骨节根部圆角过渡，无额外束线带。
-
-Two pairs of rounded curved ribs, mirrored cable slots, a 10 mm hanging eye and a flat back. No separate cable ties are required by the intended design.
-
-| 尺寸 / Dimension | V06 |
-| --- | --- |
-| 长 × 宽 × 厚 / L × W × H | 约 / approx. 144 × 66 × 10 mm |
-| 挂孔 / Hanging eye | Ø 10 mm |
-| 卡槽最窄处 / Slot throat | 3.6 mm |
-| 卡槽圆形容纳区 / Round pocket | Ø 5.4 mm |
-| 骨节根部圆角 / Root fillet | 2 mm |
-| 卡口上部接触边圆角 / Upper slot edge fillet | 0.3 mm |
-
-## 绕线效果 / Winding concept
+## 实际效果图 / In context
 
 ![AI 生成的绕线和悬挂示意，非实拍](assets/wound-cable-illustration.png)
 
@@ -42,6 +26,24 @@ Intended use: retain the cable near one connector, wind around the ribs, retain 
 设计目标包含数据线、电源线和网线。先用一根柔软的 1–2 m 数据线验证；**3–5 m 或较粗线缆的容量尚未确认**，也未验证不同线缆的弯曲半径。存放前断开线缆，不作为带电电源线卷盘使用。
 
 Data, power and Ethernet cables are intended use cases. Start testing with a flexible 1–2 m data cable. Capacity for 3–5 m or thicker cables, bend radius and hook fit remain unverified. Store disconnected cables.
+
+## 设计要点 / Design
+
+- **两对浅弧骨节**：稀疏布局，圆润截面，保持简约外形。
+- **双端卡线**：鱼尾两侧各一个卡槽，尝试分别固定靠近两个插头的线身。
+- **独立挂孔**：直径 10 mm，挂在已有挂钩上，无需另做洞洞板接口。
+- **一体平背**：背面平放打印；骨节根部圆角过渡，无额外束线带。
+
+Two pairs of rounded curved ribs, mirrored cable slots, a 10 mm hanging eye and a flat back. No separate cable ties are required by the intended design.
+
+| 尺寸 / Dimension                            | V06                           |
+| ------------------------------------------- | ----------------------------- |
+| 长 × 宽 × 厚 / L × W × H                    | 约 / approx. 144 × 66 × 10 mm |
+| 挂孔 / Hanging eye                          | Ø 10 mm                       |
+| 卡槽最窄处 / Slot throat                    | 3.6 mm                        |
+| 卡槽圆形容纳区 / Round pocket               | Ø 5.4 mm                      |
+| 骨节根部圆角 / Root fillet                  | 2 mm                          |
+| 卡口上部接触边圆角 / Upper slot edge fillet | 0.3 mm                        |
 
 ## 下载 / Downloads
 
@@ -57,20 +59,20 @@ Optional slot gauges are included for fit trials; they were not part of the firs
 
 ## 本次切片 / First-print slicing
 
-| 项目 / Setting | 值 / Value |
-| --- | --- |
-| 打印机 / Printer | Bambu Lab P1S |
-| 喷嘴 / Nozzle | 0.4 mm |
-| 材料 / Material | 黑色 PLA Basic / Black PLA Basic |
-| 层高 / Layer height | 0.20 mm |
-| 墙层数 / Wall loops | 4 |
-| 顶部 / 底部层数 / Top / bottom layers | 5 / 5 |
-| 填充 / Infill | 25% |
-| 支撑 / Supports | 关闭 / Disabled |
-| 摆放 / Orientation | 平背朝下 / Flat back down |
-| 切片估算 / Estimated duration | 41 min 18 s |
-| 切片耗材 / Estimated filament | 25.29 g · 8.35 m |
-| 总层数 / Layers | 50 |
+| 项目 / Setting                        | 值 / Value                       |
+| ------------------------------------- | -------------------------------- |
+| 打印机 / Printer                      | Bambu Lab P1S                    |
+| 喷嘴 / Nozzle                         | 0.4 mm                           |
+| 材料 / Material                       | 黑色 PLA Basic / Black PLA Basic |
+| 层高 / Layer height                   | 0.20 mm                          |
+| 墙层数 / Wall loops                   | 4                                |
+| 顶部 / 底部层数 / Top / bottom layers | 5 / 5                            |
+| 填充 / Infill                         | 25%                              |
+| 支撑 / Supports                       | 关闭 / Disabled                  |
+| 摆放 / Orientation                    | 平背朝下 / Flat back down        |
+| 切片估算 / Estimated duration         | 41 min 18 s                      |
+| 切片耗材 / Estimated filament         | 25.29 g · 8.35 m                 |
+| 总层数 / Layers                       | 50                               |
 
 以上是本次试打印设置与估算，不是完成时间或成功质量证明。Actual duration and print quality have not yet been confirmed.
 
