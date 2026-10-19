@@ -1,0 +1,72 @@
+{
+  "status": "appearance_revision_not_printed",
+  "teeth": 5,
+  "dimensions_mm": [
+    92.14556121826172,
+    49.22860670089722,
+    15.300000190734888
+  ],
+  "dimensions_definition": "exported STL vertex bounds; CAD meshing tolerance 0.025 mm",
+  "conservative_cad_bounds_mm": [
+    93.96993073476125,
+    50.227031152504324,
+    16.350780709930593
+  ],
+  "nominal_tooth_pitch_mm": 18,
+  "nominal_tooth_tip_width_mm": 11,
+  "nominal_gap_between_unblended_tooth_sections_mm": 5,
+  "exposed_centerline_length_mm": [
+    19.96623894125799,
+    19.968824346213715,
+    19.97231672297991,
+    19.968824002336085,
+    19.966238742167192
+  ],
+  "length_definition": "grip exit to tooth nose along bent centerline; about 20 mm",
+  "nominal_oval_tooth_section_mm": [
+    11,
+    9
+  ],
+  "nose_shape": "smooth lofted elliptical nose and stem with 1.5 mm root blends",
+  "grip_form": "smoothly lofted domed palm grip with rounded perimeter and broad flat base",
+  "grip_max_height_mm": 12.3,
+  "grip_top_terminal_patch_scale": 0.005235963831419537,
+  "tooth_centerline_rise_mm": 6.5,
+  "root_junction_fillet_mm": 1.5,
+  "root_blended_edge_count": 12,
+  "center_tip_row_recess_vs_outer_mm": 3.22878892733564,
+  "root_overlap_mm3": [
+    495.85797258945564,
+    500.3723393620434,
+    497.5643110416588,
+    500.263507790579,
+    496.7402347861005
+  ],
+  "flat_back_relief_mm": 0.2,
+  "tiny_terminal_cap_width_mm": 0.057595602145614905,
+  "source": "V09 STEP; only local cuts to the two palm shoulders",
+  "valid_solid": true,
+  "solids": 1,
+  "watertight": true,
+  "mesh_components": 1,
+  "triangles": 144510,
+  "preview_shading": "vertex normals within smooth patches; edges of 35 degrees or more split; STL and STEP geometry unchanged",
+  "step_volume_relative_error": 1.5470585613646757e-08,
+  "unverified": [
+    "scalp comfort and fit",
+    "hair snagging",
+    "flexibility and fatigue",
+    "print orientation and finish"
+  ],
+  "source_sha256": "a7895646212e8123a9fbd944c58a8c11581fa652812ca3ca3e09e201050b962d",
+  "outline_guide_source_sha256": "b51125962c520f76eee713524805c79b8a01edb50debc320237f05b096eb00d9",
+  "trim_blend": "20.5 mm quintic transition from tooth side to palm perimeter; blend weight has zero first/second derivatives at endpoints",
+  "change_from_v11": "lengthen only the outer shoulder transition from 13.5 to 20.5 mm; preserve the free teeth and upper grip",
+  "outer_root_extension_mm": 0,
+  "shoulder_edge_fillet_mm": 0.3,
+  "shoulder_edges_blended": 7,
+  "added_volume_vs_v09_mm3": 0.0,
+  "removed_volume_vs_v09_mm3": 115.22418867456508,
+  "removed_fraction_vs_v09": 0.003966709741189579,
+  "review_status": "visual feedback requested; no slicing or print submission for this revision"
+}

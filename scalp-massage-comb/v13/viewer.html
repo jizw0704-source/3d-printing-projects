@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>掌心按摩梳 · V13 三维预览</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: #fff;
+        color: #101010;
+        font:
+          16px/1.55 MiSans,
+          system-ui,
+          -apple-system,
+          "PingFang SC",
+          sans-serif;
+      }
+      main {
+        max-width: 1440px;
+        margin: auto;
+        padding: 32px;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        gap: 24px;
+        flex-wrap: wrap;
+      }
+      h1 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.2;
+        margin: 0 0 12px;
+      }
+      p {
+        margin: 0;
+        color: #4a4a4a;
+      }
+      .downloads {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+      }
+      a {
+        color: #245a91;
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+      }
+      .toolbar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 24px 0 16px;
+      }
+      button {
+        font: inherit;
+        color: #101010;
+        background: #fff;
+        border: 1px solid #8f9499;
+        border-radius: 12px;
+        padding: 8px 16px;
+        min-height: 44px;
+        cursor: pointer;
+      }
+      button[aria-pressed="true"] {
+        background: #101010;
+        color: white;
+      }
+      button:active {
+        background: #e4e4e4;
+        color: #101010;
+      }
+      button:disabled {
+        opacity: 0.55;
+        cursor: wait;
+      }
+      :focus-visible {
+        outline: 3px solid #567700;
+        outline-offset: 3px;
+      }
+      .stage {
+        background: #f7f7f7;
+        border-radius: 20px;
+        overflow: hidden;
+      }
+      canvas {
+        width: 100%;
+        height: clamp(420px, 65vh, 760px);
+        display: block;
+        touch-action: none;
+        cursor: grab;
+      }
+      canvas:active {
+        cursor: grabbing;
+      }
+      .controls {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 24px;
+        margin-top: 16px;
+      }
+      label {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        color: #4a4a4a;
+        font-size: 14px;
+      }
+      input {
+        width: 100%;
+        height: 44px;
+        margin: 0;
+        accent-color: #4a4a4a;
+      }
+      footer {
+        margin-top: 16px;
+        color: #4a4a4a;
+        font-size: 14px;
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+      #retry[hidden] {
+        display: none;
+      }
+      @media (hover: hover) and (pointer: fine) {
+        button:hover {
+          border-color: #101010;
+          background: #e4e4e4;
+          color: #101010;
+        }
+      }
+      @media (max-width: 600px) {
+        main {
+          padding: 20px;
+        }
+        h1 {
+          font-size: 28px;
+        }
+        .controls {
+          grid-template-columns: 1fr;
+          gap: 8px;
+        }
+        canvas {
+          height: 360px;
+        }
+        .toolbar {
+          gap: 8px;
+        }
+        .toolbar button {
+          flex: 1;
+          padding: 8px 12px;
+        }
+      }
+      @media (forced-colors: active) {
+        button[aria-pressed="true"] {
+          background: Highlight;
+          color: HighlightText;
+        }
+        canvas {
+          border: 1px solid CanvasText;
+        }
+        .stage {
+          border: 1px solid CanvasText;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div>
+          <h1>
+            掌心按摩梳 <span style="color: #4a4a4a; font-size: 18px">V13</span>
+          </h1>
+          <p>齿根过渡优化 · 五根圆齿 · 约 2 cm 齿长 · 梳背与齿根宽曲面衔接</p>
+        </div>
+        <nav class="downloads" aria-label="模型下载">
+          <a href="massage-comb-v13.stl" download>STL 模型</a>
+        </nav>
+      </header>
+      <div class="toolbar" role="group" aria-label="观察视角">
+        <button data-view="iso" aria-pressed="true" disabled>立体</button
+        ><button data-view="front" aria-pressed="false" disabled>正面</button
+        ><button data-view="side" aria-pressed="false" disabled>侧面</button
+        ><button data-view="end" aria-pressed="false" disabled>端面</button
+        ><button id="reset" disabled>复位</button>
+      </div>
+      <div class="stage">
+        <canvas
+          tabindex="0"
+          aria-label="按摩梳三维模型。拖动旋转，滚轮缩放；方向键旋转，加减键缩放，Home 复位。"
+          aria-describedby="help"
+        ></canvas>
+      </div>
+      <div class="controls">
+        <label
+          >左右旋转
+          <input
+            id="yaw"
+            aria-label="左右旋转"
+            type="range"
+            min="-180"
+            max="180"
+            value="-28"
+            disabled /></label
+        ><label
+          >上下旋转
+          <input
+            id="pitch"
+            aria-label="上下旋转"
+            type="range"
+            min="-90"
+            max="90"
+            value="18"
+            disabled /></label
+        ><label
+          >缩放
+          <input
+            id="zoom"
+            aria-label="缩放"
+            type="range"
+            min="0.5"
+            max="4"
+            step="0.01"
+            value="1"
+            disabled
+        /></label>
+      </div>
+      <footer>
+        <span id="help">拖动旋转，滚轮缩放；也可用视角按钮或滑块。</span
+        ><span id="status" role="status" aria-live="polite">正在加载模型…</span
+        ><button id="retry" hidden>重新加载</button>
+      </footer>
+      <p style="margin-top: 16px; font-size: 13px">
+        齿根曲面原型 V13 · 预览来自实际
+        STL。慢速切片已完成，暂缓打印，未提交任务。本版为网格曲面精修，未生成对应
+        STEP。头皮触感、缠发、柔韧度与打印效果尚待验证。
+      </p>
+      <details style="margin-top: 24px">
+        <summary
+          style="
+            cursor: pointer;
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+          "
+        >
+          查看 V12 / V13 同视角对比
+        </summary>
+        <img
+          src="comparison.png"
+          alt="旧版 V12 与新版 V13 的正面和斜视实际模型对比，使用相同镜头、尺度和灯光。修改集中在握持部与五个齿根之间的衔接。"
+          style="width: 100%; height: auto; display: block; margin-top: 16px"
+        />
+      </details>
+    </main>
+    <script src="viewer.js"></script>
+  </body>
+</html>

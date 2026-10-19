@@ -1,0 +1,15 @@
+{
+  "source": "V12 STL; source STEP remains in v12 as historical reference only",
+  "source_sha256": "83c9412cdc5109bf27dada0c87f76c5f027cc75bd4ce00e5e777f87d1a837992",
+  "method": "uniform voxel re-tessellation, nearest-surface projection, weighted local surface fairing",
+  "voxel_size_mm": 0.18,
+  "smooth_iterations": 1200,
+  "working_vertices": 360348,
+  "vertices_in_fairing_band": 135020,
+  "max_fairing_displacement_mm": 1.0191478186085623,
+  "mean_band_fairing_displacement_mm": 0.16590580537124472,
+  "max_fairing_displacement_in_protected_region_mm": 0.0,
+  "protected_region_definition": "pre-fairing mesh vertices Y<=21 or Y>=46 or Z<=0.8; remeshing tolerance must be checked separately against V12",
+  "step_status": "not generated; do not label the older STEP as this revised geometry",
+  "status": "candidate_mesh_refinement_requires_validation_and_visual_review"
+}

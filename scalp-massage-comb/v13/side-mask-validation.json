@@ -1,0 +1,28 @@
+{
+  "reference": "scalp-massage-comb/v13/v12-side-mask.png",
+  "render": "scalp-massage-comb/v13/v13-side-mask.png",
+  "iou": 0.9887798285856538,
+  "mse": 0.0005842592800036073,
+  "ssim": null,
+  "reference_bbox": [
+    344,
+    372,
+    520,
+    164
+  ],
+  "render_bbox": [
+    344,
+    372,
+    520,
+    164
+  ],
+  "reference_centroid": [
+    610.9146128951954,
+    463.19173868202995
+  ],
+  "render_centroid": [
+    610.8616361249483,
+    463.7105220565756
+  ],
+  "centroid_distance_px": 0.5214812823973544
+}

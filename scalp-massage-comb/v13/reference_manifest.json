@@ -1,0 +1,50 @@
+{
+  "primary_view": "front",
+  "source_files": [
+    {
+      "path": "../v12/massage-comb-v12.stl",
+      "role": "accepted overall dimensions and tooth contact geometry; front root junction is the explicit change target"
+    }
+  ],
+  "expected_primary_parts": {
+    "count": 5,
+    "labels": [
+      "left outer tooth",
+      "left inner tooth",
+      "central tooth",
+      "right inner tooth",
+      "right outer tooth"
+    ]
+  },
+  "coordinate_contract": {
+    "units": "mm",
+    "x": "left-right",
+    "y": "tooth tips to palm rear",
+    "z": "flat base to raised contact surface"
+  },
+  "hard_constraints": [
+    "5 teeth",
+    "18 mm tooth pitch",
+    "approximately 20 mm nominal tooth length",
+    "preserve contact teeth and rear grip within 0.15 mm sampled approximation",
+    "do not restore outer ledges or add ribs",
+    "same camera, material, lighting and scale for comparisons"
+  ],
+  "repair_goal": "remove the V-shaped palm/root reflection ridge by fairing the actual surface over Y21..46, leaving contact teeth and rear grip protected",
+  "validation_thresholds": {
+    "front_mask_iou_min": 0.94,
+    "side_mask_iou_min": 0.92,
+    "bbox_size_drift_max": 0.03,
+    "part_count_exact": true
+  },
+  "limits": [
+    "one perspective hand sketch is not a calibrated orthographic template",
+    "mask overlap checks preservation, not aesthetic quality or physical comfort"
+  ],
+  "execution": {
+    "cad": "V12 STEP/STL is the source; V13 is an actual locally faired mesh, with no corresponding STEP",
+    "render": "local Blender background Python",
+    "blender_mcp": "not available in this session; original MCP integration not tested",
+    "skill_use": "CadQuery boundary diagnosis; Blender mesh refinement and fixed-camera render/inspect/compare"
+  }
+}

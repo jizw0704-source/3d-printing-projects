@@ -1,0 +1,53 @@
+{
+  "status": "mesh_checked_awaiting_visual_feedback_not_printed",
+  "source_sha256": "83c9412cdc5109bf27dada0c87f76c5f027cc75bd4ce00e5e777f87d1a837992",
+  "stl_sha256": "738ba2182f7e2160b3a154ae202eba4e92cfba4032a6b856794e526116cbd013",
+  "method": "uniform voxel re-tessellation, nearest-surface projection, weighted local surface fairing",
+  "dimensions_mm": [
+    90.52727508544922,
+    49.22257995605469,
+    15.298723220825218
+  ],
+  "previous_dimensions_mm": [
+    92.14556121826172,
+    49.22860670089722,
+    15.300000190734888
+  ],
+  "volume_mm3": 28611.609956991993,
+  "volume_change_fraction_vs_v12": -0.008851979583665459,
+  "teeth": 5,
+  "nominal_tooth_pitch_mm": 18,
+  "source_exposed_centerline_length_mm": [
+    19.96623894125799,
+    19.968824346213715,
+    19.97231672297991,
+    19.968824002336085,
+    19.966238742167192
+  ],
+  "length_note": "tooth centerlines/tips retained within sampled mesh approximation; original approximately 20 mm length remains nominal, root surface has changed",
+  "separate_teeth_at_y18": 5,
+  "gaps_at_y18_mm": [
+    6.4398410638715085,
+    6.635923803020172,
+    6.634638606374473,
+    6.437110389992483
+  ],
+  "watertight": true,
+  "winding_consistent": true,
+  "mesh_components": 1,
+  "triangles": 720692,
+  "protected_mesh_to_source_max_distance_mm": 3.736322389873638e-06,
+  "protected_mesh_to_source_p95_distance_mm": 1.8541284673105852e-06,
+  "protected_source_to_mesh_max_distance_mm": 0.018943356776261768,
+  "distance_scope": "deterministic samples on tooth contact region Y<=20.5 and grip rear Y>=46.5; not an exhaustive Hausdorff bound",
+  "max_root_surface_displacement_mm": 1.0191478186085623,
+  "step_status": "none: V13 is a locally refined mesh; V12 STEP is not this shape",
+  "unverified": [
+    "visual acceptance",
+    "global curvature continuity",
+    "scalp comfort",
+    "snagging",
+    "durability",
+    "slicing and print finish"
+  ]
+}

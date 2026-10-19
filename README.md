@@ -12,6 +12,7 @@ A growing collection of our 3D printing projects: CAD models, design illustratio
 | [Fishbone · 鱼骨收线器](fishbone-cable-organizer/) | V06 | 打印完成；使用方便，保留现有尺寸 |
 | [羽毛球笔筒 / Shuttlecock pen holder](shuttlecock-pen-holder/) | V08 | 双色切片完成，已提交首件试打，待实物验收 |
 | [小巧鞋拔 / Compact shoehorn](shoehorn/) | V04 | 外观已认可；模型检查通过，尚未试印 |
+| [掌心按摩梳 / Palm massage comb](scalp-massage-comb/) | V13 试验 | 外观已认可；慢速切片完成，暂缓打印，未提交任务 |
 
 ### hello · 竖放支架
 
@@ -62,6 +63,16 @@ An approximately 18 cm one-piece shoehorn with a straight lengthwise form, a con
 *AI 模拟穿鞋场景，非打印实拍；实际形状、尺寸与适配以 CAD 和实物测试为准。*
 
 [中英文介绍](shoehorn/) · [STEP](shoehorn/v04/shoehorn-v04.step) · [STL](shoehorn/v04/shoehorn-v04.stl) · [本地三维预览说明](shoehorn/#本地三维预览--local-3d-preview)
+
+### 掌心按摩梳 / Palm massage comb
+
+![V13 黑色 PLA 拟真实效果，使用实际 STL 渲染，非实拍](scalp-massage-comb/assets/showcase-v13.png)
+
+五个稀疏圆润短齿、浅凹齿列与柔和掌握部，约 90.53 × 49.22 × 15.30 mm。V13 优化握持部与齿根之间的衔接；外观已认可，模型检查与慢速切片已完成，预计约 2 小时 27 分钟、21.46 g。用户决定暂缓打印，未提交任务，实物触感和打印效果待验证。上图为实际模型的模拟渲染，非打印实拍。
+
+Five rounded teeth with a gently curved layout and a blended palm grip. V13 is mesh-checked and sliced; printing is paused, with no task submitted. Image: a photorealistic render of the actual model, not a photograph.
+
+[中英文介绍](scalp-massage-comb/) · [V13 STL](scalp-massage-comb/v13/massage-comb-v13.stl) · [设计演进](scalp-massage-comb/docs/DESIGN-HISTORY.md) · [打印准备](scalp-massage-comb/docs/PRINT-PREPARATION-V13.md)
 
 ## 整理方式 / Organization
 

@@ -1,0 +1,12 @@
+{
+  "front_silhouette_iou_vs_v12": 0.9910501465277088,
+  "side_silhouette_iou_vs_v12": 0.9887798285856538,
+  "dimensions_preserved_within_3_percent": true,
+  "images": [
+    "comparison.png",
+    "front-outline-overlay.png"
+  ],
+  "method": "source skill silhouette_validator.py on unlit alpha masks; matched fixed orthographic cameras",
+  "meaning": "shape preservation only; does not score naturalness, curvature continuity or comfort",
+  "visual_review": "front grip/root crease removed by actual local surface fairing; five rounded tooth contacts and grip rear preserved; final appearance awaits user feedback"
+}

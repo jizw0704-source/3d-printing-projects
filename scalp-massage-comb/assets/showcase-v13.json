@@ -1,0 +1,19 @@
+{
+  "image": "showcase-v13.png",
+  "classification": "photorealistic CAD render; not a photograph or a print result",
+  "source": "../v13/massage-comb-v13.stl",
+  "source_sha256": "738ba2182f7e2160b3a154ae202eba4e92cfba4032a6b856794e526116cbd013",
+  "mesh_geometry_changes": "none; millimetres converted to metres and recentered",
+  "geometry_modifiers": [],
+  "material": "black PLA appearance; illustrative shading-only layer texture",
+  "execution": "local Blender background Python; no MCP backend available",
+  "blender_version": "5.2.2 LTS",
+  "renderer": "Cycles",
+  "samples": 128,
+  "dimensions_mm": [
+    90.52728116512299,
+    49.22258108854294,
+    15.298724174499512
+  ],
+  "physical_validation": "not performed; printing paused by user"
+}
